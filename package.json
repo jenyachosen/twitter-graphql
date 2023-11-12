@@ -34,8 +34,8 @@
   "devDependencies": {
     "@parcel/core": "^2.3.2",
     "@parcel/transformer-sass": "2.3.2",
-    "@typescript-eslint/eslint-plugin": "^5.16.0",
-    "@typescript-eslint/parser": "^5.16.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
     "concurrently": "^7.0.0",
     "eslint": "^8.11.0",
     "eslint-plugin-node": "^11.1.0",
@@ -44,10 +44,10 @@
     "process": "^0.11.10"
   },
   "engines": {
-    "node": "^14.19.1 || >= ^16.0 || >= ^17.0.0"
+    "node": "^16.0.0"
   },
   "volta": {
-    "node": "14.19.1",
+    "node": "16.0.0",
     "yarn": "1.22.18"
   }
 }
