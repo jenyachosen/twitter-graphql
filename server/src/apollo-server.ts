@@ -21,7 +21,12 @@ export async function createApolloServer(
   httpServer: Server,
   app: express.Application
 ): Promise<ApolloServer<ExpressContext>> {
-  const context: () => TwitterResolverContext = () => ({ db })
+  const context: () => TwitterResolverContext = () => ({ 
+    db,
+    dbTweetCache: {},
+    dbTweetToFavoriteCountMap: {},
+    dbUserCache: {},
+  })
 
   const server = new ApolloServer({
     schema: addResolversToSchema({

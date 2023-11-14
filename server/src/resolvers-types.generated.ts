@@ -17,6 +17,7 @@ export type Query = {
   __typename?: 'Query';
   currentUser: User;
   suggestions: Array<Suggestion>;
+  tweets: Array<Tweet>;
 };
 
 export type Suggestion = {
@@ -52,6 +53,7 @@ export type User = {
   handle: Scalars['String'];
   id: Scalars['String'];
   name: Scalars['String'];
+  stats?: Maybe<UserStats>;
   updatedAt: Scalars['String'];
 };
 
@@ -158,6 +160,7 @@ export type ResolversParentTypes = {
 export type QueryResolvers<ContextType = any, ParentType extends ResolversParentTypes['Query'] = ResolversParentTypes['Query']> = {
   currentUser?: Resolver<ResolversTypes['User'], ParentType, ContextType>;
   suggestions?: Resolver<Array<ResolversTypes['Suggestion']>, ParentType, ContextType>;
+  tweets?: Resolver<Array<ResolversTypes['Tweet']>, ParentType, ContextType>;
 };
 
 export type SuggestionResolvers<ContextType = any, ParentType extends ResolversParentTypes['Suggestion'] = ResolversParentTypes['Suggestion']> = {
@@ -192,6 +195,7 @@ export type UserResolvers<ContextType = any, ParentType extends ResolversParentT
   handle?: Resolver<ResolversTypes['String'], ParentType, ContextType>;
   id?: Resolver<ResolversTypes['String'], ParentType, ContextType>;
   name?: Resolver<ResolversTypes['String'], ParentType, ContextType>;
+  stats?: Resolver<Maybe<ResolversTypes['UserStats']>, ParentType, ContextType>;
   updatedAt?: Resolver<ResolversTypes['String'], ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };

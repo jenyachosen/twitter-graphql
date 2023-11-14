@@ -51,6 +51,11 @@ export const GET_CURRENT_USER = gql`
       handle
       avatarUrl
       createdAt
+      stats {
+        tweetCount
+        followingCount
+        followerCount
+      }
     }
     suggestions {
       name
@@ -73,10 +78,14 @@ const App: React.FC = () => {
   if (!data) return <p>No data.</p>
   const { currentUser, suggestions = [] } = data
 
+  console.log('===============App===============');
+  console.log({currentUser});
+  console.log('====================================');
+
   return (
     <div>
-      <LeftSidebar currentUser={{...CURRENT_USER, ...currentUser}} />
-      <Header currentUser={CURRENT_USER} />
+      <LeftSidebar currentUser={{...currentUser}} />
+      <Header currentUser={currentUser} />
 
       <div id="container" className="wrapper nav-closed">
         <Timeline
