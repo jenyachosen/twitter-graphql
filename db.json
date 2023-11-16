@@ -34,6 +34,55 @@
       "createdAt": "2022-03-23T03:55:59.614Z",
       "updatedAt": "2022-03-23T03:55:59.614Z",
       "id": "tweet-1220baa2-2092-4ed8-a72c-91757dc508f7"
+    },
+    {
+      "message": "Hi All",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2023-11-14T17:37:10.457Z",
+      "updatedAt": "2023-11-14T17:37:10.457Z",
+      "id": "tweet-e3463cfd-efd4-4f77-b39b-f1d3bbae1e3f"
+    },
+    {
+      "message": "Hi All",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2023-11-15T10:29:10.622Z",
+      "updatedAt": "2023-11-15T10:29:10.623Z",
+      "id": "tweet-bf54d198-ee4f-47e0-b5e0-03568f8cad07"
+    },
+    {
+      "message": "Whats new?",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2023-11-15T10:29:35.000Z",
+      "updatedAt": "2023-11-15T10:29:35.000Z",
+      "id": "tweet-fde57c96-3538-4a2c-898b-2b79264c44d9"
+    },
+    {
+      "message": "Jenya",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2023-11-15T10:38:54.596Z",
+      "updatedAt": "2023-11-15T10:38:54.596Z",
+      "id": "tweet-88868c81-9d49-446f-af27-07c68f5733a4"
+    },
+    {
+      "message": "Dima",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2023-11-15T10:39:26.207Z",
+      "updatedAt": "2023-11-15T10:39:26.207Z",
+      "id": "tweet-ae85f8c2-52e6-4ec4-898f-0997103b7f3f"
+    },
+    {
+      "message": "Some new",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2023-11-15T10:40:41.458Z",
+      "updatedAt": "2023-11-15T10:40:41.458Z",
+      "id": "tweet-95073850-2435-4383-b445-8941f2cd8833"
+    },
+    {
+      "message": "CUrr user",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2023-11-15T10:41:12.746Z",
+      "updatedAt": "2023-11-15T10:41:12.746Z",
+      "id": "tweet-594e7d30-e21a-4314-9023-d3fcb3cd99a6"
     }
   ],
   "users": [
