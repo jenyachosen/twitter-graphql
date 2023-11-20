@@ -1,7 +1,7 @@
 {
-  "name": "@full-stack-ts/shared",
+  "name": "@twitter-graphql/shared",
   "version": "0.0.0",
-  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
+  "author": "Jenya Korolenko",
   "license": "NOLICENSE",
   "private": true,
   "main": "dist/index.js",

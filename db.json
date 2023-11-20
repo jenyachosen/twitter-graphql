@@ -83,6 +83,13 @@
       "createdAt": "2023-11-15T10:41:12.746Z",
       "updatedAt": "2023-11-15T10:41:12.746Z",
       "id": "tweet-594e7d30-e21a-4314-9023-d3fcb3cd99a6"
+    },
+    {
+      "message": "New one tweet",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2023-11-20T11:40:23.701Z",
+      "updatedAt": "2023-11-20T11:40:23.701Z",
+      "id": "tweet-8b84a2d0-e305-4241-b858-7a153166ad46"
     }
   ],
   "users": [
@@ -195,6 +202,20 @@
       "createdAt": "2022-03-23T03:55:59.617Z",
       "updatedAt": "2022-03-23T03:55:59.617Z",
       "id": "favorite-a4e781ad-1c7b-4e62-b9dd-66b4e36e390b"
+    },
+    {
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "tweetId": "tweet-8b84a2d0-e305-4241-b858-7a153166ad46",
+      "createdAt": "2023-11-20T12:10:48.730Z",
+      "updatedAt": "2023-11-20T12:10:48.730Z",
+      "id": "favorite-a3c5d169-cfd5-4684-84f5-6ac0677f9c19"
+    },
+    {
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "tweetId": "tweet-594e7d30-e21a-4314-9023-d3fcb3cd99a6",
+      "createdAt": "2023-11-20T12:10:50.391Z",
+      "updatedAt": "2023-11-20T12:10:50.391Z",
+      "id": "favorite-94e8c578-0106-48c6-b46f-0e59e57fe53b"
     }
   ],
   "hashtagTrends": [

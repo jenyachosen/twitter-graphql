@@ -1,9 +1,9 @@
 {
   "name": "full-stack-ts",
   "version": "0.0.0",
-  "description": "Mike North's Full Stack TypeScript course",
-  "repository": "https://github.com/mike-north/full-stack-ts",
-  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
+  "description": "Full Stack TypeScript GraphQL app",
+  "repository": "https://github.com/jenyachosen/twitter-graphql",
+  "author": "Jenya Korolenko",
   "license": "NOLICENSE",
   "private": true,
   "scripts": {
